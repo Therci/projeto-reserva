@@ -1,0 +1,42 @@
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class GerenciamentoReservas {
+    private List<Reserva> reservas;
+
+    public GerenciamentoReservas() {
+        this.reservas = new ArrayList<>();
+    }
+
+    public void criarReserva(int id, Date dataEntrada, Date dataSaida, TipoQuarto tipoQuarto, int numeroHospedes) {
+        Reserva reserva = new Reserva(id, dataEntrada, dataSaida, tipoQuarto, numeroHospedes);
+        reservas.add(reserva);
+    }
+
+    public void cancelarReserva(int id) {
+        Reserva reserva = encontrarReserva(id);
+        if (reserva != null) {
+            reservas.remove(reserva);
+        }
+    }
+
+    public void atualizarDisponibilidadeQuartos() {
+        // Lógica para atualizar a disponibilidade dos quartos
+        // Pode ser implementada aqui
+    }
+
+    public Reserva encontrarReserva(int id) {
+        for (Reserva reserva : reservas) {
+            if (reserva.getId() == id) {
+                return reserva;
+            }
+        }
+        return null;
+    }
+
+    public List<Reserva> getReservas() {
+        return reservas;
+//eu fiz mais de um tipo pra ver qual o melhor 0w0//
+    }
+}
