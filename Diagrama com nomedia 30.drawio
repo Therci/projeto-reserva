@@ -33,14 +33,6 @@
         <mxCell id="rDeh1MMmLVFuKvXPgz50-5" value="&lt;b&gt;AGÊNCIAS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="740" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="rDeh1MMmLVFuKvXPgz50-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="rDeh1MMmLVFuKvXPgz50-6" target="rDeh1MMmLVFuKvXPgz50-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-100" y="78" />
-              <mxPoint x="-100" y="775" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="rDeh1MMmLVFuKvXPgz50-6" value="&lt;b&gt;BANCOS&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="60" width="160" height="70" as="geometry" />
         </mxCell>
@@ -49,6 +41,14 @@
         </mxCell>
         <mxCell id="rDeh1MMmLVFuKvXPgz50-8" value="Nome" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rDeh1MMmLVFuKvXPgz50-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="rDeh1MMmLVFuKvXPgz50-9" target="rDeh1MMmLVFuKvXPgz50-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-110" y="180" />
+              <mxPoint x="-110" y="840" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="rDeh1MMmLVFuKvXPgz50-9" value="Endereço" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="140" width="90" height="40" as="geometry" />
